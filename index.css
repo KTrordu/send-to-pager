@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+    font-family: press-start-2p;
+}
+
+body {
+    background-color: black;
+}
+
+@font-face {
+    font-family: press-start-2p;
+    src: url(/font/PressStart2P-Regular.ttf);
+}
+
+.site-header {
+    display: flex;
+    align-items: center;
+    justify-content: stretch;
+    flex-direction: column;
+    width: 30%;
+    height: 12vw;
+    background-color: #283033;
+    margin: 0 auto 0 auto;
+    border: 2px solid gray;
+}
+
+#pgr-head {
+    color: #f8f8f8;
+    font-weight: normal;
+}
+
+#pgr-disp {
+    background-color: #9EC4B3;
+    width: 90%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#disp-head {
+    border-color: black;
+    font-weight: normal;
+    font-size: 1.5em;
+}
+
+.phn-scr {
+    display: flex;
+    align-items: center;
+    justify-content: stretch;
+    flex-direction: column;
+    background-color: #D9D9D9;
+    width: 30%;
+    height: 36vw;
+    margin: 3vw auto 0 auto;
+    border: 2px solid gray;
+}
+
+#phn-head {
+    font-weight: normal;
+}
+
+#phn-disp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #444444;
+    width: 90%;
+    height: 18%;
+    margin-bottom: 0.5vw;
+}
+
+#phn-disp-head {
+    font-weight: normal;
+    font-size: 1.5em;
+    color: white;
+}
+
+.button-cont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.buttons {
+    font-size: 2em;
+    border: none;
+    width: 8.42vw;
+    height: 4vw;
+    margin: 0.3vw;
+}
+
+#btn-reset {
+    margin-right: 0.65vw;
+    width: 12.63vw;
+    background-color: #BE482A;
+    color: white;
+}
+
+#btn-send {
+    margin-left: 0.65vw;
+    width: 12.63vw;
+    background-color: #3D9C7C;
+    color: white;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+button:active {
+    border: 2px ridge black;
+}
